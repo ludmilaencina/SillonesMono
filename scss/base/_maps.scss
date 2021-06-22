@@ -1,0 +1,20 @@
+/* Variables*/
+$bg-color: rgb(238, 192, 151);
+$border-radius: 27px;
+$margin: 10px;
+$width: min-content;
+
+$maps: (
+    background-color: $bg-color,
+    border-radius: $border-radius,
+    width: $width,
+    margin: $margin
+);
+
+.redes {
+    background-color: map-get($maps, background-color);
+    border-radius: map-get($maps, border-radius);
+    width: map-get($maps, width);
+    margin: map-get($maps, margin);
+
+} 

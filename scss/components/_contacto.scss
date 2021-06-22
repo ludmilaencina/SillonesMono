@@ -1,0 +1,36 @@
+/* CONTACTANOS */
+
+/* variables */
+$width: 60px;
+$border-radius: 25px;
+$padding: 6px;
+$bottom: 40px;
+$right: 40px;
+$bg-color: green;
+
+
+.contactanos {
+    margin: auto;
+    display: grid;
+}
+
+.whatsapp {
+    width: $width;
+    border-radius: $border-radius;
+    padding: $padding;
+    position: fixed;
+    bottom: $bottom;
+    right: $right;
+    background-color: $bg-color;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+
+@keyframes animacion {
+    0% {width: 60px;}
+    50% {width: 75px; }
+    100% {width: 80px; }
+    
+} 

@@ -1,0 +1,25 @@
+/* FOOTER */ 
+
+/* Variables */
+$font-size: small;
+$color: rgb(168, 75, 75);
+$bg-color: rgb(238, 192, 151);
+$border-radius: 27px;
+$margin: 10px;
+$width: min-content;
+
+
+footer {
+    text-align: center;
+    font-size: $font-size;
+    
+}
+
+.nav-footer {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: $color;
+
+}
+
+

@@ -1,0 +1,47 @@
+/* Extend*/ 
+
+/* Listas */ 
+$colores: 
+rgb(197, 107, 107),
+rgb(151, 55, 55),
+rgb(238, 192, 151),
+rgb(158, 65, 65),
+rgb(168, 75, 75),
+rgb(148, 74, 74);
+
+$font-sizes: 
+40px,
+27px,
+22px,
+19px;
+
+%Encabezados {
+    font-size: nth($font-sizes, 1);
+    font-weight: bolder;
+    font-family: $font;
+    color: nth($colores, 4);
+    text-align: center;
+}
+
+%Titulos {
+    font-size: nth($font-sizes, 2);
+    font-weight: bolder;
+    font-family: $font;
+    color: nth($colores, 5);
+    text-align: center;
+}
+
+%Subtitulos {
+    font-size: nth($font-sizes, 3);
+    font-weight: bolder;
+    font-family: $font;
+    color: nth($colores, 5);
+    text-align: center;
+}
+
+%Clases {
+    font-size: nth($font-sizes, 4);
+    font-family: $font;
+    color: nth($colores, 6);
+    text-align: center;
+}

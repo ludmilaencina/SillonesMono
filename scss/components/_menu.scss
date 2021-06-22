@@ -1,0 +1,30 @@
+/* MENU */
+
+/* Listas */
+$colores-menu: 
+rgb(168, 75, 75),
+rgb(230, 205, 184);
+
+.navbar {
+    background-color:nth($colores-menu, 1);  
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link:hover {
+    background-color: nth($colores-menu, 2);
+    font-weight: bolder;
+    border-radius: 10px;
+}
+

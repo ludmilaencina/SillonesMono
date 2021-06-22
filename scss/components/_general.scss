@@ -1,0 +1,66 @@
+/* Listas */ 
+$colores: 
+rgb(197, 107, 107),
+rgb(151, 55, 55),
+rgb(238, 192, 151),
+rgb(158, 65, 65),
+rgb(168, 75, 75),
+rgb(148, 74, 74);
+
+$font-sizes: 
+40px,
+27px,
+22px,
+19px;
+
+
+
+/* Estilo general de la página */
+body {
+    background-image: $bg-image;
+}
+
+ul {
+    list-style: none;
+    color: nth($colores, 1);
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+
+p {
+    font-family: $font;
+    color: nth($colores, 2);
+    line-height: 25px;
+}
+
+hr {
+    height: 5px;
+    background-color: nth($colores, 3);
+    border-color: nth($colores, 3);
+}
+
+.encabezados {
+    @extend %Encabezados
+
+}
+
+.titulos {
+    @extend %Titulos
+}
+
+.subtitulos {
+    @extend %Subtitulos
+}
+
+.clases {
+    @extend %Clases
+}
+
+.productos {
+    text-align: center;
+}
+
