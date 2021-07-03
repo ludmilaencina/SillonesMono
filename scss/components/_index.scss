@@ -9,6 +9,14 @@
 
 }   
 
+.imagen-item {
+    @media (min-width: 320px) and (max-width: 480px) {
+        display: grid;
+        grid-column-start: span 3;
+        grid-row-start: span 2;
+   }
+}
+
 .videoIndex {
     height: 405px; width: 625px;
     &:hover {
@@ -21,4 +29,10 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
+    @media (min-width: 320px) and (max-width: 480px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin: auto;
+    }
 }
