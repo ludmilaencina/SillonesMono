@@ -13,7 +13,7 @@
     @media (min-width: 320px) and (max-width: 480px) {
         display: grid;
         grid-column-start: span 3;
-        grid-row-start: span 2;
+        grid-row-start: span 3;
    }
 }
 
@@ -24,15 +24,14 @@
     @media (min-width: 320px) and (max-width: 480px) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
         width: 100%;
-        margin: auto;
     }
 }
 
 .videoIndex {
     height: 405px; width: 625px;
-    &:hover {
-        transform: scale(1.2,1.2);
-        transition: 1.3s;
+    @media (min-width: 320px) and (max-width: 480px) {
+        height: 200px; width: 310px;
     }
 }
